@@ -98,5 +98,5 @@ Console.WriteLine();
 // Намного упращенный вариант
 Console.Write("Enter a number in decimal: ");
 int number = Convert.ToInt32(Console.ReadLine());
-string binNum = Convert.ToString(num, 2);
+string binNum = Convert.ToString(number, 2);
 Console.Write($"number {number} in binary: {binNum} ");
